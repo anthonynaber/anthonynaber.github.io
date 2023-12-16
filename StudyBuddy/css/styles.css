@@ -1,0 +1,149 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+    background-color:#f27c7c;
+}
+
+.container-fluid {
+    padding: 3% 15%
+}
+
+h1 {
+    font-family: 'Monterrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    color:#ffffff
+}
+
+h2 {
+    color:#ffffff;
+    font-family: 'Montserrat';
+    font-size: 1.5;
+    font-weight: bold
+}
+
+p{
+    color: #8f8f8f;
+}
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0; 
+}
+
+.title-image{
+    width: 60%;
+    transform: rotate(20deg);
+    z-index: -1;
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: #ffff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box{
+    text-align: center;
+    margin-bottom: 1rem
+}
+
+.icon{
+    color: #12efe8
+}
+
+.icon:hover {
+    color: #8fdbf2
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #f27c7c;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #f27c7c;
+    text-align: center;
+}
+
+.press-logo {
+    width: 10%;
+    margin: 20px 20px 50px;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%
+}
+
+.pricing-header {
+    color:#0000
+}
+
+#cta {
+    background-color: #f27c7c;
+    color: #ffff;
+    padding: 7% 15%;
+}
+
+.cta-heading {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5; 
+}
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+   
+    #title {
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform:rotate(0);
+    }
+}
